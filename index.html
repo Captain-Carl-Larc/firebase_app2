@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="index.js" defer></script>
+  <script type="module" src="assign.js" defer></script>
+</head>
+<body class="bg-white flex flex-col items-center">
+    <header class="bg-gray-900 w-screen md:w-3/5 h-20 flex items-center justify-center">
+        <h1 class="text-5xl font-bold text-white">
+            MOVIE APP
+          </h1>
+    </header>
+    <main class="bg-gray-500 w-screen md:w-3/5">
+        <div class="movie-input flex flex-col px-4 py-8 gap-y-4">
+            <input type="text" id="movie" class="bg-gray-700 tracking-widest text-white text-2xl px-4 border-0 outline-0 focus:border-0 focus:outline-0 leading-loose rounded-lg" placeholder="add movie">            
+            <button id="add-btn" class="bg-blue-700 text-white text-3xl px-4 py-3 font-semibold w-48 rounded-lg mx-auto">
+              Save Movie
+            </button>
+        </div>
+        
+    </main>
+
+
+
+</body>
+</html>
